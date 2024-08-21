@@ -24,7 +24,7 @@ def divide(x, y):
 ##### Main program #####
 
 # Display the welcome message
-print("Welcome to the Calculator!")
+print("\nWelcome to the Calculator!")
 
 # Infinite loop to keep the calculator running
 while True:
