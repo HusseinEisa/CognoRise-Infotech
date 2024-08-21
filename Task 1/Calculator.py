@@ -61,16 +61,16 @@ while True:
     # Perform the selected operation and display the result
     if choice == '1':
         # Perform the addition operation and display the result
-        print(f"{num1} + {num2} = {add(num1, num2)}")
+        print(f"\n{num1} + {num2} = {add(num1, num2)}")
     elif choice == '2':
         # Perform the subtraction operation and display the result
-        print(f"{num1} - {num2} = {subtract(num1, num2)}")
+        print(f"\n{num1} - {num2} = {subtract(num1, num2)}")
     elif choice == '3':
         # Perform the multiplication operation and display the result
-        print(f"{num1} * {num2} = {multiply(num1, num2)}")
+        print(f"\n{num1} * {num2} = {multiply(num1, num2)}")
     elif choice == '4':
         # Perform the division operation and display the result
-        print(f"{num1} / {num2} = {divide(num1, num2)}")
+        print(f"\n{num1} / {num2} = {divide(num1, num2)}")
     else:
         # Display an error message if the user enters invalid input
         print("\nInvalid input. Please enter a number between 1 and 5.\n")
